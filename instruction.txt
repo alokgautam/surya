@@ -1,0 +1,7 @@
+To solve this problem approched to crawl the meta description of website and search the keyword related word like Buy, Price etc.
+
+
+Step 1: i have used Scrapy library and make Spider abc.py to crawl all website description along with url and get Output file item .csv  consist url, discription.
+Step 2:  seperated one csv which only consist url item1.csv
+Step 3: created one Keyword file keyword.txt
+Step 4: created program test.py which accepted input file item.csv and give the output  in Final.csv file 
